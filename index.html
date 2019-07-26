@@ -1,7 +1,245 @@
-<script type="text/javascript" src="login.js"></script>
+<!DOCTYPE html><html lang="en">
+<style>
+*{margin:0;padding:0;}
+html,body {
+font-family:Helvetica, sans-serif;
+background-color:white;
+line-height:1.5;
+font-size: 0.93em;
+width: 60%;
+margin: 0 auto;
+border-left:3px, solid, black;
+text-align:center;
+}
+header {
+font-size:1.7em;
+color:black;
+}
+.p {
+    text-align: center;
+    font-weight: bold;
+}
+#main-doc {
+text-align:center;
+}
+p {
+color:black;
+text-align:center;
+}
+a {
+    transition: 0.8s ease;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
 
-Refresh the page to try to input the username & password again.
-<br>
+footer{ 
+    text-align:center;
+}
+.code {
+display:block;
+padding:15px 15px 20px 15px;
+margin-right:40px;
+border: 1.4px solid rgb(168, 168, 168); 
+border-radius:7px;
+color:rgb(211, 211, 211);
+line-height:1.65;
+margin: 0 auto;
+text-align: center;
+width: 90%;
+}
+hr {
+width:95%;
+display:block;
+margin:30px auto 30px auto;
+opacity:0.7;
+border-radius:50%;
+}
+h2 {
+text-align:center;
+color:black;
+}
 
-<br><br>
-Actualiza la pagina para intentar colocar el usuario y contraseña de nuevo.
+ul {
+    text-align: left;
+}
+.lh1 {
+    line-height: 1.5;
+}
+#trankt {
+    display:none;
+}
+.hline {
+    display:none;
+}
+
+ul {
+    list-style: none;
+}
+
+.box {
+    padding: 1px;
+    border: 1.4px solid rgb(168, 168, 168);
+    border-radius:7px;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+
+.e-boxlg {
+    width: 360px;
+    padding: 5px;
+    border:;
+    background-color:;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+    color:black;
+}
+
+.a-boxlg {
+    width: 360px;
+    transition: 0.4s;
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    background-color: #00008b;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.a-boxlg:hover {
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    color: #00008b;
+    background-color: white;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.a-boxsm {
+    width: 150px;
+    transition: 0.4s;
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    background-color: #00008b;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.a-boxsm:hover {
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    color: #00008b;
+    background-color: white;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.table{border-collapse:collapse!important;
+width:100%;
+color:black;
+}
+
+
+/*media query 750px or less*/
+@media (max-width:750px), (orientation: portrait) { 
+html {padding:0;margin:0 auto;}
+
+li{ 
+    font-size:1.65em;
+}
+
+html, body {
+  width: 95%;
+  text-align: center;
+
+}
+.table {font-size:1.65em;}
+}
+</style>
+
+
+
+
+<title>AZAB Stats Site - Home</title>
+
+
+
+<head><link rel="icon" href="favicon.png"></head>
+<body>
+
+<div >
+    <header><h3 style="margin-top:40px;margin-bottom:20px;background-color:#00008b;color:white;text-align:center;padding:10px 0px 10px 0px;border-radius:5px;">AZAB Stats Portal</h3></header>
+
+    <hr class="hr">
+    <h2>Statistics Portal</h2>
+</div>
+<hr class="hr">
+
+
+<main id="main-doc">   
+    <section class="main-section" id="PlayerStats">
+        
+  
+      <ul class="code">
+          <a href="metrics.html"><li class="a-boxlg">Workouts</li></a><br>
+        </ul><br>
+    </section> 
+  
+            <hr>
+  
+
+
+         <section class="main-section" id="standings">
+         
+
+      <ul class="code">
+        <a href="ltz.html" target="_blank"><li class="a-boxlg">Liga de Talentos del Zulia</li></a>
+    </ul><br>
+    
+
+      </section> 
+    
+              <hr>
+
+
+
+
+
+<div class="hline">
+    <hr>
+</div>
+          <section id="teamStats">
+   
+        
+        <ul class="code">
+            <a href="tr2.html" target="_blank"><li class="a-boxlg">Liga de Futuras Promesas</li></a>
+        </ul><br>
+        
+        
+          </section>
+
+          <hr>
+</main>
+<footer id="footer">
+    <div style="color:black;">Contact & Support:</div><br>
+    <div class="lh1">
+    <div style="color:black;"> +1 (253) 392 3956 (WhatsApp Only)</div>
+
+    <div style="color:black; margin-bottom:25px;"> +58 412 102 3592 (Phone & WhatsApp)</div>
+    </div>
+</footer>
+
+</footer>
+</body>
+<!--jquery-->
+<script src="jquery.js"></script>
+<!--js/-->
+<script src="bs.js"></script>
+</html>
