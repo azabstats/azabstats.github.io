@@ -1,0 +1,427 @@
+<!DOCTYPE html><html lang="en">
+<style>
+*{margin:0;padding:0;}
+html,body {
+font-family:Helvetica, sans-serif;
+background-color:white;
+line-height:1.5;
+font-size: 0.93em;
+width: 60%;
+margin: 0 auto;
+border-left:3px, solid, black;
+text-align:center;
+}
+header {
+font-size:1.7em;
+color:black;
+}
+.p {
+    text-align: center;
+    font-weight: bold;
+}
+#main-doc {
+text-align:center;
+}
+p {
+color:black;
+text-align:center;
+}
+a {
+    transition: 0.8s ease;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer{ 
+    text-align:center;
+}
+.code {
+display:block;
+padding:15px 15px 20px 15px;
+margin-right:40px;
+border: 1.4px solid rgb(168, 168, 168); 
+border-radius:7px;
+color:rgb(211, 211, 211);
+line-height:1.65;
+margin: 0 auto;
+text-align: center;
+width: 90%;
+}
+hr {
+width:95%;
+display:block;
+margin:30px auto 30px auto;
+opacity:0.7;
+border-radius:50%;
+}
+h2 {
+text-align:center;
+color:black;
+}
+
+ul {
+    text-align: left;
+}
+.lh1 {
+    line-height: 1.5;
+}
+#trankt {
+    display:none;
+}
+.hline {
+    display:none;
+}
+
+ul {
+    list-style: none;
+}
+
+.box {
+    padding: 1px;
+    border: 1.4px solid rgb(168, 168, 168);
+    border-radius:7px;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.a-boxlg {
+    width: 360px;
+    transition: 0.4s;
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    background-color: #00008b;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.a-boxlg:hover {
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    color: #00008b;
+    background-color: white;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.a-boxsm {
+    width: 150px;
+    transition: 0.4s;
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    background-color: #00008b;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.a-boxsm:hover {
+    padding: 5px;
+    border: 1.4px solid #00008b;
+    color: #00008b;
+    background-color: white;
+    border-radius:7px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.table{border-collapse:collapse!important;
+width:100%;
+color:black;
+}
+
+
+
+
+
+/*media query 750px or less*/
+@media (max-width:750px), (orientation: portrait) { 
+html {padding:0;margin:0 auto;}
+
+li{ 
+    font-size:1.65em;
+}
+
+html, body {
+  width: 95%;
+  text-align: center;
+
+}
+.table {font-size:1.65em;}
+}
+</style>
+
+<title>Liga de Talentos del Zulia</title>
+
+
+
+<head><link rel="icon" href="favicon.png"></head>
+<link rel="stylesheet" src="css.css">
+
+<body>
+
+<div >
+    <header><h3 style="margin-top:40px;margin-bottom:20px;background-color:#00008b;color:white;text-align:center;padding:10px 0px 10px 0px;border-radius:5px;">Liga de Talentos del Zulia</h3></header>
+<h3></h3>
+
+    <hr class="hr">
+    <h2>Statistics Site</h2>
+</div>
+<hr class="hr">
+
+
+         <section class="main-section" id="standings">
+            <div class="box">
+          <header>Standings</header>
+      </div>
+
+
+
+      <p class="p">
+        Group A
+    </p><br>
+
+    <div class="code">
+        <table class="table">
+                <thead>
+                        <tr>
+                          <th>Team</th>
+                          <th>GP</th>
+                          <th>W</th>
+                          <th>L</th>
+                          <th>T</th>
+                          <th>GB</th>
+                          <th>Win %</th>
+                       </tr>
+ 
+                      </thead>
+                      <tdbody>
+                            <tr>
+                                    <td>All Star</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>-</td>
+                                    <td>1.000</td>
+                                </tr>
+                                <tr>
+                                        <td>JM + CP + RE</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                            <td>1</td>
+                                        <td>.500</td>
+                                    </tr>
+                                <tr>
+                                        <td>Diamond's Prospect</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                            <td>2</td>
+                                        <td>.000</td>
+                                    </tr>
+                                    
+ </tdbody>
+ </table> 
+
+</div><br>
+            
+<p class="p">
+    Group B
+</p><br>
+<div class="code">
+<table class="table">
+        <thead>
+                <tr>
+                  <th>Team</th>
+                  <th>GP</th>
+                  <th>W</th>
+                  <th>L</th>
+                  <th>T</th>
+                  <th>GB</th>
+                  <th>Win %</th>
+               </tr>
+              </thead>
+<tdbody>
+       
+            <tr>
+                <td>PE + 7S</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>-</td>
+                <td>.667</td>
+            </tr>
+            <tr>
+                    <td>God Stars</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>.667</td>
+                </tr>
+
+                <tr>
+                        <td>LC + WA + IPA + RP</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>.333</td>
+                    </tr>
+
+                    <tr>
+                        <td>KFP + PP + ABDB + CAC + GL</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>.333</td>
+                    </tr>
+
+
+                </tdbody></table> </div>
+            
+                <br>  </section> 
+    
+              <hr>
+
+
+
+
+
+<div class="hline">
+    <hr>
+</div>
+<main id="main-doc">   
+  <section class="main-section" id="PlayerStats">
+      <div class="box">
+        <header>Player Statistics</header>
+</div>
+
+
+
+    <ul class="code">
+
+        
+        <a href="asfp.htm" target="_blank"><li class="a-boxsm">All Star</li></a><br>
+        <a href="gsfp.htm" target="_blank"><li class="a-boxsm">God Stars</li></a><br>
+        <a href="dpfp.htm" target="_blank"><li class="a-boxsm">Diamond's Prospect</li></a><br>
+        <a href="pefp.htm" target="_blank"><li class="a-boxsm">PE</li></a><br>
+        <a href="lcfp.htm" target="_blank"><li class="a-boxsm">LC</li></a><br>
+        <a href="kfpfp.htm" target="_blank"><li class="a-boxsm">KFP</li></a><br>
+        <a href="csfp.htm" target="_blank"><li class="a-boxsm">COL</li></a><br>
+        
+      </ul><br>
+  </section> 
+
+          <hr>
+
+          <section id="teamStats">
+            <div class="box">
+              <header>Tournament Statistics</header>
+        </div>
+
+
+        
+        <ul class="code">
+            <li><a href="lgteamsfp.htm" target="_blank"><li class="a-boxsm">Team Statistics</li></a>
+            <li><a href="lgplyrsfp.htm" target="_blank"><li class="a-boxsm">Category Leaders</li></a>
+        </ul><br>
+        
+        
+          </section>
+
+          <hr>
+
+  <section id="BoxScores">
+    <div class="box">
+    <header>Game Box Scores</header>
+    </div>
+
+
+       <p class="p">
+           August 07, 2019:
+       </p><br>
+       <ul class="code">
+            <p class="p">July 30</p>
+            <a href="001aug07.htm" target="_blank"><li class="a-boxlg">God Stars 3 @ 6 PE</li></a><br>
+            <a href="002aug07.htm" target="_blank"><li class="a-boxlg">COL 4 @ 13 All Star</li></a><br>
+            <a href="003aug07.htm" target="_blank"><li class="a-boxlg">KFP 3 @ 4 LC </li></a><br>
+        </ul><br>
+
+
+
+        <p class="p">
+            August 08, 2019:
+        </p><br>
+        <ul class="code">
+            <a href="004aug08.htm" target="_blank"><li class="a-boxlg">KFP 9 @ 10 God Stars</li></a><br>
+            <a href="005aug08.htm" target="_blank"><li class="a-boxlg">DP 6 @ 7 COL</li></a><br>
+            <a href="006aug08.htm" target="_blank"><li class="a-boxlg">LC 4 @ 15 PE</li></a><br>
+         </ul><br>
+
+        <p class="p">
+            August 09, 2019:
+        </p><br>
+        <ul class="code">
+    
+             <a href="007aug09.htm" target="_blank"><li class="a-boxlg">God Stars 1 @ 0 LC</li></a><br>
+             <a href="008aug09.htm" target="_blank"><li class="a-boxlg">PE 2 @ 3 KFP</li></a><br>
+             <a href="009aug09.htm" target="_blank"><li class="a-boxlg">All Star 6 @ 4 Diamond's Prospect</li></a><br>
+             
+            </ul><br>
+
+            <p class="p">
+                August 10, 2019:
+            </p><br>
+            <ul class="code">
+         
+                 <a href="010aug10.htm" target="_blank"><li class="a-boxlg">** PE @ All Star **</li></a><br>
+            
+                </ul><br>
+    
+        <p style="text-align:left;margin-left:30px;">**  ** = Final Match.</p>
+<br>
+        <p style="text-align:left;margin-left:30px;">PE = Prospectos Elite + 7Stars.</p>
+        <p style="text-align:left;margin-left:30px;">COL = JM + CP + RE.</p>
+        <p style="text-align:left;margin-left:30px;">LC = LC + RP + IPA + WA.</p>
+        <p style="text-align:left;margin-left:30px;">KFP = KFP + GL + ABDB + CAC + PP.</p>
+        
+
+
+
+            </section>
+<hr>
+
+ 
+
+</main>
+<footer id="footer">
+    <div style="color:black;">Contact & Support:</div><br>
+    <div class="lh1">
+    <div style="color:black;"> +1 (253) 392 3956 (WhatsApp Only)</div>
+
+    <div style="color:black; margin-bottom:25px;"> +58 412 102 3592 (Phone & WhatsApp)</div>
+    </div>
+</footer>
+
+</footer>
+</body>
+
+<!--jquery-->
+<script src="jquery.js"></script>
+<!--js/-->
+<script src="bs.js"></script>
+</html>
